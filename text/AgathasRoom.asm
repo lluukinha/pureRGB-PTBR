@@ -1,46 +1,47 @@
 _AgathaBeforeBattleText::
-	text "I am AGATHA of"
-	line "the ELITE FOUR!"
+	text "Eu sou AGATHA da"
+	line "ELITE DOS QUATRO!"
 
-	para "OAK's taken a lot"
-	line "of interest in"
-	cont "you, child!"
+	para "O CARVALHO tem"
+	line "mostrado muito"
+	cont "interesse em você,"
+	cont "criança!"
 
-	para "That old duff was"
-	line "once tough and"
-	cont "handsome! That"
-	cont "was decades ago!"
+	para "Aquele velhote já"
+	line "foi forte e"
+	cont "charmoso! Mas isso"
+	cont "foi há décadas!"
 
-	para "Now he just wants"
-	line "to fiddle with"
-	cont "his #DEX! He's"
-	cont "wrong! #MON"
-	cont "are for fighting!"
+	para "Agora ele só quer"
+	line "brincar com o"
+	cont "seu #DEX! Ele"
+	cont "está errado! Os"
+	cont "#MON são para lutar!"
 
-	para "<PLAYER>! I'll show"
-	line "you how a real"
-	cont "trainer fights!"
+	para "<PLAYER>! Eu vou te"
+	line "mostrar como um"
+	cont "treinador de verdade luta!"
 	done
 
 _AgathaEndBattleText::
 	text "Oh ho!"
-	line "You're something"
-	cont "special, child!"
+	line "Você tem algo de"
+	cont "especial, criança!"
 	prompt
 
 _AgathaAfterBattleText::
-	text "You win! I see"
-	line "what the old duff"
-	cont "sees in you now!"
+	text "Você venceu! Agora"
+	line "vejo o que aquele"
+	cont "velhote vê em você!"
 
-	para "I have nothing"
-	line "else to say! Run"
-	cont "along now, child!"
+	para "Não tenho mais nada"
+	line "a dizer! Agora vá"
+	cont "embora, criança!"
 	done
-	
+
 _LoreleisRoomLoreleiDontRunAwayText::
 _BrunosRoomBrunoDontRunAwayText::
 _AgathasRoomAgathaDontRunAwayText::
-	text "Someone's voice:"
-	line "Don't run away!"
+	text "Uma voz misteriosa:"
+	line "Não fuja!"
 	done
